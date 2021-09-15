@@ -4,9 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const user = "torvalds";
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App user={user} />
   </React.StrictMode>,
   document.getElementById('root')
 );
